@@ -26,7 +26,8 @@ jobs:
       - name: 📦 Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pandas numpy scikit-learn tensorflow matplotlib>=3.4 cml
+          pip install numpy 
+          pip install pandas scikit-learn tensorflow matplotlib>=3.4 cml
 
       - name: 🧪 Run tests
         run: |
