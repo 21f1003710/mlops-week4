@@ -33,7 +33,7 @@ jobs:
 
       - name: 🧪 Run tests
         run: |
-          python test.py > test_output.txt
+          python test.py
 
       - name: 📊 Generate CML report
         env:
