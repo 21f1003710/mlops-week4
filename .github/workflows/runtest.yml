@@ -33,6 +33,7 @@ jobs:
           python test.py > test_output.txt
 
       - name: 📊 Generate CML report
+        uses: iterative/cml@v2
         env:
           REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
